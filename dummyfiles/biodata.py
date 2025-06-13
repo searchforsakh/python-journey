@@ -1,0 +1,17 @@
+print("\n==========BIODATA SAYA=========\n")
+
+print("==========INPUT===========")
+nama = input("Masukkan Nama Anda: ")
+jurusan = input("Masukkan Jurusan Anda: ")
+domisili = input("Masukkan Domisili Anda: ")
+asal = input("Asal Sekolah: ")
+alasan = input("Alasan Masuk Fasilkom: ")
+harapan = input("Masukkan Harapan:")
+
+print("\n============OUTPUT===========")
+print("Nama Saya: ", nama)
+print("Jurusan Saya: ", jurusan)
+print("Domisili: ", domisili)
+print("Asal Sekolah: ", asal)
+print("Alasan Saya Masuk Fasilkom: ", alasan)
+print("Harapan Saya: ", harapan)
