@@ -31,20 +31,12 @@ print(f"address dari list a = {hex(id(a))}")
 print(f"address dari list b = {hex(id(b))}")
 print(f"address dari list c = {hex(id(c))}")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a = ["sakha", "budi", "pais"]
+b = a.copy() # .copy() = akan membuat list baru yang sama seperti list a, tanpa merubah list a
+b[2] = "reyes" # menambahkan reyes di index 2
+b.append("rizki") # menambahkan rizki akhir data
+b.insert(1,"nabila") #menambahkan nabila di index 1
+b.remove("sakha") # menghapus sakha
+b.pop() # menghapus data terakhir
+print(f"a = {a}")
+print(f"b = {b}")

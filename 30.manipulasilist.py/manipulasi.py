@@ -1,9 +1,9 @@
-# MENGOPERASIKAN LIST
-# 1.MENGAMBIL DATA DARI LIST
-# 2.MENGHITUNG JUMLAH DATA DALAM LIST
-# 3.MENAMBAHKAN item pada list sesuai posisi (TIDAK MENGGUNAKAN VARIABLE PENAMPUNG)
-# 4.MENAMBAH item di akhir list (TIDAK MENGGUNAKAN VARIABLE PENAMPUNG)
-# 5.MENGGABUNGKAN DUA BUAH LIST
+# MENGOPERASIKAN LIST >> data = ["sakha", 1, True]
+# 1.MENGAMBIL DATA DARI LIST >> variabel = data[posisi index]
+# 2.MENGHITUNG JUMLAH DATA DALAM LIST >> variabel = len(data)
+# 3.MENAMBAHKAN item pada list sesuai posisi >> data.insert(posisi, item yg ingin ditambah)
+# 4.MENAMBAH item di akhir list >> data.append(item yg ingin ditambah)
+# 5.MENGGABUNGKAN DUA BUAH LIST >> data_lama.extend(data_baru)
 # 6.MERUBAH ITEM PADA DATA LIST
 # 7.MEREMOVE DATA
 # 8.MEREMOVE DATA TERAKHIR

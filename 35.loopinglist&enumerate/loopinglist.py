@@ -24,7 +24,7 @@ kumpulan_angka = [1,4,5,8,2,5,3,7]
 panjang = len(kumpulan_angka)
 
 i = 0
-while True:
+while True: 
     if i < panjang:
         print(f"angka = {kumpulan_angka[i]}")
         i += 1
@@ -41,14 +41,9 @@ kumpulan_angka = [1,4,5,8,2,5,3,7]
 angka_kuadrat = [i**2 for i in kumpulan_angka]
 print(angka_kuadrat)
 
-# MENGGUNAKAN ENUMERATE --> UNTUK MENDAPATKAN INDEX DAN DATANYA SEKALIGUS
+# MENGGUNAKAN ENUMERATE --> UNTUK MENGAMBIL INDEX DAN DATANYA SEKALIGUS 
+# syntaks >> for abc(index), efg(data) in enumerate(data_list)
 print("Menggunakan enumerate")
-empty_list = []
-data10 = "river"
-data20 = "fiersa"
-data = [data10, data20]
-empty_list.append(data) # --> list kosong akan ditambah dari setiap data yang dimasukkan
-for index, data in enumerate(empty_list):
-    print(f"index = {index} data = {data[0]} data2 = {data[1]} data1 = {data[0]}")
-
-
+data_list = ["sakha",1,3,2,"adit"]
+for abc, efg in enumerate(data_list):
+    print(F"index = {abc+1}, data = {efg}")

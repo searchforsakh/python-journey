@@ -24,7 +24,7 @@ for i in angka_range:
     print(f"contoh{i}")
 print("END PROGRAM3")
 
-# ini dengan string
+# ini dengan string (looping data per huruf)
 data = "SAKHAAAAAA"
 for qwertyhj in data:
     print(f"{qwertyhj}")

@@ -18,7 +18,7 @@ print(f"address member 1 data gabung\t\t= {hex(id(data_gabung[0]))}")
 print(f"address member 1 data gabung copy\t= {hex(id(data_gabung_copy[0]))}")
 
 
-# mengambil data untuk nested list
+# mengambil data dari nested list
 data = data_gabung[0][1] # [untuk menentukan list][untuk mengambil data didalam list]
 print(f"data = {data}")
 

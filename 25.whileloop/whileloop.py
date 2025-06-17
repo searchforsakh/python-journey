@@ -16,5 +16,5 @@ print(f"angka sekarang --> {angka}")
 while angka < 5:
     angka += 1 # artinya adalah angka = angka + 1
     print(f"angka sekarang --> {angka}")
-    print("INI BENAR")
+    # print("INI BENAR")
 print("END PROGRAM")
