@@ -14,7 +14,6 @@ mahasiswa_template = {
     'tgl_lahir' : datetime.date(1111,1,1)
 }
 
-
 data_mahasiswa = {}
 while True:
     print(f"{"DATABASE MAHASISWA":^30}")
@@ -44,7 +43,7 @@ while True:
         sks = data_mahasiswa[i]['sks_lulus']
         tgllahir = data_mahasiswa[i]['tgl_lahir'].strftime("%x")
         print(f"{i:<7} {nama:<20} {jurusan:<20} {nim:<10} {sks:<10} {tgllahir:<10}")
-   
+
     confirm_usr = input('mau lanjut ? = (y/n) ')
     if confirm_usr == 'n':
         break
